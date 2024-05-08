@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0sp"
+    android:layout_marginTop="20sp"
+    android:layout_marginBottom="2000dp"
+    android:background="@drawable/a5"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="200dp"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="#7218181B"
+
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="#B9FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24sp"
+        android:backgroundTint="#129A9997"
+        android:onClick="submit"
+        android:text="@string/signup"
+        android:textSize="28sp" />
+
+
+
+
+</LinearLayout>

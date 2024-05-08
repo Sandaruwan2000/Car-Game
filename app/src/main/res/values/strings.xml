@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="agree">Are you Agree</string>
+
+    <string name="signup">SignUp</string>
+    <string name="restart">Restart</string>
+    <string name="intend">Help</string>
+
+
+</resources>
